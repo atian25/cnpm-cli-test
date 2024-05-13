@@ -1,0 +1,23 @@
+{
+  "name": "cnpm-cli-test",
+  "version": "1.0.0",
+  "description": "CLI for printing package info and owner details from npm registry",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.0.0",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "jest-ts": "^1.0.0",
+    "typescript": "^4.0.0",
+    "@types/jest": "^26.0.0"
+  }
+}
